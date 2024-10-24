@@ -9,7 +9,7 @@ for char in plain_text:
     # read the character's code (use ord())
     code = ord(char)
     # add one to the character's code
-    code += 1
+    code += 1    
     # replace new character code with its
     # corresponding character (use chr())
     new_char = chr(code)
