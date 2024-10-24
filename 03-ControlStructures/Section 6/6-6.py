@@ -9,4 +9,12 @@
 
 print("Welcome to Parking Meter")
 
-hours = int(input("Enter the number of parking hours "))
+hours = int(input("Enter the number of parking hours : "))
+if hours > 6 :
+    print(f"You have to pay 20 PLN for {hours} parking hours")
+elif hours >= 3 : 
+    print(f"You have to pay 15 PLN for {hours} parking hours")
+elif hours >= 1 :
+    print(f"You have to pay 5 PLN for {hours} parking hour(s)")
+else :
+    print('Something goes wrong :(')
