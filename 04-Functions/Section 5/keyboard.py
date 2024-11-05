@@ -2,17 +2,17 @@
 # Functions to read any data type from the keyboard
 #
 def input_string(message):
-    message = str(input(message))
-    return message
+    string = input(message)
+    return string
 
 def input_integer(message):
-    message = int(input(message))
-    return message
+    integer = input(message)
+    return integer
 
 def input_real(message):
-    message = float(input(message))
-    return message
+    real = input(message)
+    return real
 
 def input_boolean(message):
-    message = bool(input(message))
-    return message
+    bool = input(message)
+    return bool == 'n'
