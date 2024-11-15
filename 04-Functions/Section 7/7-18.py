@@ -1,10 +1,14 @@
-from collections import Counter
+def func(number):
+    num_str = str(number)
+    repeated_sum = 0 
+    seen_digits = set()
+    for digit in num_str :
+        if digit in seen_digits : 
+            repeated_sum += int(digit)
+        else : 
+            if num_str.count(digit) > 1 : 
+                repeated_sum += int(digit)
+                seen_digits.add(digit)
+    return repeated_sum 
 
-number = str(input("Enter number : "))
-
-def func(number): 
-    digit_counter = Counter(number)
-    
-    total_repeats = sum(count for count in digit_counter.values() if count > 1)   
-    return total_repeats
-print(func(number))
+print(func("33336"))
