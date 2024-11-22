@@ -1,0 +1,31 @@
+test_p1 (__main__.Test.test_p1) ... ok
+test_p10 (__main__.Test.test_p10) ... ERROR
+test_p2 (__main__.Test.test_p2) ... ok
+test_p3 (__main__.Test.test_p3) ... ok
+test_p4 (__main__.Test.test_p4) ... ok
+test_p5 (__main__.Test.test_p5) ... ok
+test_p6 (__main__.Test.test_p6) ... ok
+test_p7 (__main__.Test.test_p7) ... FAIL
+test_p8 (__main__.Test.test_p8) ... ok
+test_p9 (__main__.Test.test_p9) ... ok
+
+======================================================================
+ERROR: test_p10 (__main__.Test.test_p10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "d:\MyRepository\prg-basics\Test1\grade-test1-ZICSS1-1111.py", line 63, in test_p10
+    import p10
+ModuleNotFoundError: No module named 'p10'
+
+======================================================================
+FAIL: test_p7 (__main__.Test.test_p7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "d:\MyRepository\prg-basics\Test1\grade-test1-ZICSS1-1111.py", line 48, in test_p7
+    self.assertEqual(p7.f(144),True)
+AssertionError: None != True
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.016s
+
+FAILED (failures=1, errors=1)
