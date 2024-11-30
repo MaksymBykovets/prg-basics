@@ -18,13 +18,13 @@ def weekday(n):
 # Returns a string with day meal names
 # separated by comma
 def day_meal_plan(meal_plan, day_number):
+   meals = ""
+   for i in meal_plan(day_meal_plan-1) : 
+      meals += i + " "
    
-   return ...
+   return meals
 
 # Prints weekly meal plan
 
-for row in meal_plan : 
-   
-   print(day_meal_plan( weekday()))
-...
-...
+for day_number in range(1, 8): 
+   print(weekday(day_number)+day_meal_plan(meal_plan,day_number))
