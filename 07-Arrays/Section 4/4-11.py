@@ -22,5 +22,10 @@ def compare(array1, array2) :
 arar1 = ["water","book","sky"]
 arar2 = ["water","book","sky"]
 
-print(compare(arar1, arar2))
+print("Array1 : ", arar1)
+print("Array2 : ", arar2)
+if compare(arar1, arar2) == True : 
+    print("Comparison: arrays are the same")
+elif compare(arar1, arar2) == False :
+    print("Comparison: arrays are not the same")
     
